@@ -55,7 +55,7 @@ reiniciar.onclick = function reiniciar_tablero() {
 }
 
 function verificar_fin_del_juego() {
-
+	 return false;
 	
 }
 
