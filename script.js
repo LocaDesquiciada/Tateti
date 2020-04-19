@@ -56,21 +56,6 @@ reiniciar.onclick = function reiniciar_tablero() {
 
 function verificar_fin_del_juego() {
 
-	//diagonales
-	if ((TABLERO.diagonales[0] == TABLERO.diagonales[4]) == TABLERO.diagonales[8]) return true;
-	if ((TABLERO.diagonales[2] == TABLERO.diagonales[4]) == TABLERO.diagonales[6]) return true;
-
-	//Columnas
-	if ((TABLERO.columnas[0] == TABLERO.columnas[3]) == TABLERO.columnas[6]) return true;
-	if ((TABLERO.columnas[1] == TABLERO.columnas[4]) == TABLERO.columnas[7]) return true;
-	if ((TABLERO.columnas[2] == TABLERO.columnas[5]) == TABLERO.columnas[8]) return true;
-
-	//Filas
-	if ((TABLERO.filas[0] == TABLERO.filas[1]) == TABLERO.filas[2]) return true;
-	if ((TABLERO.filas[3] == TABLERO.filas[4]) == TABLERO.filas[5]) return true;
-	if ((TABLERO.filas[6] == TABLERO.filas[7]) == TABLERO.filas[8]) return true;
-
-	return false;
 	
 }
 
