@@ -1,5 +1,5 @@
-const IMG_EQUIS = "cruz.png";
-const IMG_CIRCULO = "circulo.png";
+const IMG_EQUIS = "./cruz.png";
+const IMG_CIRCULO = ":/circulo.png";
 const CIRCULO = 0;
 const EQUIS = 1;
 var LISTADO_CASILLEROS = document.querySelectorAll("Casillero");
